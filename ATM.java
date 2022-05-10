@@ -108,7 +108,7 @@ public class ATM {
         screen.displayMessageLine("2 - Withdraw cash");
         screen.displayMessageLine("3 - Deposit funds");
         screen.displayMessageLine("4 - EXIT\n");
-        screen.displayMesaageLine("Enter a choice: ");
+        screen.displayMessageLine("Enter a choice: ");
         
         return keypad.getInput();
     }
